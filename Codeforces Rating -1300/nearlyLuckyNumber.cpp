@@ -30,8 +30,8 @@ while(t--){
         if(s[i]==a || s[i]==b){lucky++;}
         else{unlucky++;}
     }
-    if(unlucky == 0){cout<<"YES"<<endl;}
-    else if(lucky == 4 || lucky == 7){
+    //if(unlucky == 0){cout<<"YES"<<endl;}
+    if(lucky == 4 || lucky == 7){
         cout<<"YES"<<endl;
     }
     else{
